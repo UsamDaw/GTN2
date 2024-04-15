@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Micro+5+Charted&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    left: 50.5%;
+    top: 12%;
+    font-size: 100px;
+    font-family: "Jersey 10", sans-serif;
+    z-index: 1;
+    user-select: none;
+    animation: aa 1.3s infinite;
+}
+
+@keyframes aa {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+}
+
+img {
+    position: absolute;
+    bottom: 1px;
+    left: 360px;
+    height: 1200px;
+    user-select: none; 
+}
+
+#GTN {
+    user-select: none;
+}
+
+#zis {
+    position: absolute;
+    left: 38.6%;
+    font-family: "Jersey 10", sans-serif;
+    top: 24%;
+    font-size: 40px;
+    z-index: 1;
+}
+
+#outputText {
+    display: flex;
+    justify-content: center;
+}
+
+#interact {
+    position: relative;
+    right: 10%;
+    margin: -20px;
+    margin-bottom: -30px;
+    user-select: none;
+}
+
+#interact #userInput {
+    padding: 10px;
+    font-size: 32px;
+    border: 8px solid black;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    border: 8px solid black;
+    font-family: "Jersey 10", sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    user-select: none;
+}
+
+#interact2 {
+    position: relative;
+    bottom: 408px;    
+    display: flex;
+    left: -340px;
+}
+
