@@ -13,6 +13,7 @@ function generateRandomNumber() {
 lucky.addEventListener('click', function () {
     const randomNumber = generateRandomNumber();
     userInput.value = randomNumber;
+    sjekk();
 });
 
 function sjekk() {
